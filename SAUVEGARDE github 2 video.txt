@@ -1,0 +1,129 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git commit -m "video demo"
+[Dev 20f18c3] video demo
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 PORTFOLIO-cv-MARIO-4.mkv
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 16.85 MiB | 17.90 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git commit -m "ajout video"
+[Dev ab39c53] ajout video
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 24.91 MiB | 16.90 MiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git add *
+The following paths are ignored by one of your .gitignore files:
+venv
+hint: Use -f if you really want to add them.
+hint: Disable this message with "git config advice.addIgnoredFile false"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git commit -m "add video"
+On branch Dev
+Your branch is ahead of 'origin/Dev' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 24.91 MiB | 17.16 MiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git fetch origin
+git status
+git log --oneline --decorate --graph --max-count=10 origin/Dev Dev
+On branch Dev
+Your branch is ahead of 'origin/Dev' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+* ab39c53 (HEAD -> Dev) ajout video
+* 20f18c3 video demo
+* d3e906a (origin/Dev) fifth commit
+* f8ae20a third commit
+* 0d4dde6 second commit
+* 3f11d50 Ajout gitignore
+* 51da07f (origin/main, origin/Test, origin/HEAD, main, Test) Initial commit
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git config --global http.version HTTP/1.1
+git config --global core.compression 0
+git push origin Dev
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 25.56 MiB | 66.59 MiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/Mariogit20/PORTFOLIO-cv-MARIO-4.git
+   d3e906a..ab39c53  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git config --global --unset core.compression
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$ git config --global http.version HTTP/1.1
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github13/PORTFOLIO-cv-MARIO-4 (Dev)
+$
